@@ -4,8 +4,9 @@
   "description": "Personal Portfolio Website",
   "main": "index.js",
   "scripts": {
-    "dev": "concurrently \"cd frontend && npm run dev\" \"cd backend && npm run dev\"",
-    "install-all": "npm install && cd frontend && npm install && cd ../backend && npm install"
+  "dev": "vite",
+  "build": "vite build",
+  "start": "vite preview"
   },
   "keywords": [],
   "author": "",
